@@ -1,0 +1,85 @@
+:root{
+    --primery-text:font-family:'Roboto';}
+
+.list{list-style: none;}
+.link{text-decoration: none;}
+
+/* ===========TOP LINE =========*/
+.logo{font-family:'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    }
+.nav-item{font-family:var(--primery-text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+.nav-item:hover,
+.nav-item:focus{color: #404BBF;}
+.contact-mail{font-family: var(--primery-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+.contact-mail:hover,
+.contact-mail:focus{color: #404BBF;}
+.contact-phone{
+        font-family:var(--primery-text);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;}
+.contact-phone:hover,
+.contact-phone:focus{color: #404BBF;}
+.studio{font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #2E2F42;
+    }
+.section{font-family:var(--primery-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;}
+.content-name{font-family:var(--primery-text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+    
+.content-text{font-family:var(--primery-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;}
+

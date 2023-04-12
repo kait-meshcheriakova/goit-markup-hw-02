@@ -56,7 +56,33 @@
     text-transform: uppercase;
 
     color: #2E2F42;
-    }
+    } 
+/* ============FINISH TOP LINE ======================= */
+
+/* ==========HERO================= */
+.hero{background-color:#2E2F42;
+    font-family: var(--primery-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size:56px;
+    line-height:1.07;
+    text-align:center;
+    letter-spacing:0.02em;
+    color: #FFFFFF;}
+.btn{
+    background: #4D5AE5;
+    font-family:var(--primery-text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;}
+.btn:hover,
+.btn:focus{background: #404BBF;}
+/* ============ FONTS FOR SECTIONS */
 .section{font-family:var(--primery-text);
     font-style: normal;
     font-weight: 700;
@@ -82,4 +108,4 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;}
-
+/* ============ FINISH FONTS FOR SECTIONS========== */

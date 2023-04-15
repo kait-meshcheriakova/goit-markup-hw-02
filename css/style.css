@@ -1,5 +1,5 @@
 :root{
-    --primery-text:font-family:'Roboto',"sans-serif";
+    --primery-text:font-family:'Roboto',sans-serif;
     --color-iris: #4d5ae5;
 	--color-ocean: #404bbf;
 	--color-text: #2e2f42;
@@ -13,7 +13,7 @@
 	--color-white:#FFFFFF;;
 	--color-dairy: #fcfcfc;}
 
-.body{color:#434455;
+body{color:#434455;
     background-color:var(--color-white);
     font-family: "Roboto", sans-serif
    }
@@ -50,8 +50,8 @@
 
 /* ============ FINISH FONTS FOR SECTIONS========== */
 /* ===========TOP LINE =========*/
-.logo{font-family:'Raleway',"sans-serif";
-    font-style: normal;
+.logo{font-family:'Raleway',sans-serif;
+    font-style:normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -61,6 +61,7 @@
     text-transform: uppercase;
     color: #4D5AE5;
     }
+.address{ font-style: normal;}
 .nav-item{font-family:var(--primery-text);
     font-style: normal;
     font-weight: 500;
@@ -79,8 +80,8 @@
 .contact:hover,
 .contact:focus{color: #404BBF;}
 
-.studio{font-family: 'Raleway' sans-serif;
-    font-style: normal;
+.studio{font-family: 'Raleway',sans-serif;
+    font-style:normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -101,7 +102,7 @@
     font-weight: 700;
     font-size:56px;
     line-height:1.07;
-    
+    text-align: center;
     letter-spacing:0.02em;}
 .btn{
     background: #4D5AE5;
@@ -140,14 +141,15 @@
 
 
 /* ========PORTFOLIO======= */
-.btn-filter{font-family: 'Roboto' sans-serif;
+.btn-filter{font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    cursor: pointer
+    cursor: pointer;
+    background: #F4F4FD;
     }
 .btn-filter:hover,
 .btn-filter:focus{color: #FFFFFF;
@@ -155,7 +157,7 @@
 .card-portfolio{background-color: var(--color-cornflower);}
 
     /* =====FOOTER===== */
-.studio-footer{font-family: 'Raleway' sans-serif;
+.studio-footer{font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -164,7 +166,7 @@
     color: var(--color-studio-footer);
     }  
 .footer{ background-color:#2E2F42;}
-.footer-text{font-family: 'Raleway' sans-serif;
+.footer-text{font-family: 'Raleway',sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
